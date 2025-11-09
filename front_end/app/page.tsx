@@ -2,7 +2,7 @@ import React from 'react';
 
 const HomePage = () => {
   return (
-    <div className="max-w-full mx-auto mt-12 p-8 bg-white rounded-xl shadow-lg h-full border">
+    <div className="max-w-full mx-auto mt-30 p-8 bg-white rounded-xl shadow-lg h-full border">
       <h1 className="text-4xl font-extrabold text-blue-700 mb-6 text-center tracking-tight hover:text-blue-500 transition">
         Notion Clone
       </h1>
@@ -27,7 +27,7 @@ const HomePage = () => {
         </a>
       </div>
       <div className="text-center text-gray-400 pt-8 pb-2 italic">
-        <span className="text-blue-500 font-semibold">Made by Krish Chauhan</span> for the Altair.
+        <span className="text-blue-500 font-semibold">Made by Krish Chauhan</span> for Altair.
       </div>
     </div>
   );

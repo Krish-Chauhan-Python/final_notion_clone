@@ -53,7 +53,7 @@ export default function Page() {
                       await fetch(`http://localhost:3001/api/data/${assignment._id}`, {
                         method: 'DELETE'
                       });
-                      router.push('/');
+                      router.push('/dashboard');
                     }}
                   >
                     Delete

@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutUsPage = () => {
   return (
-    <div className="max-w-full mx-auto mt-12 p-8 bg-white rounded-xl shadow-lg h-full border">
+    <div className="max-w-full mx-auto mt-30 p-8 bg-white rounded-xl shadow-lg h-full border">
       <h1 className="text-3xl font-extrabold hover:text-blue-500 transition delay-75 text-blue-700 mb-4 text-center tracking-tight">
         About Us
       </h1>

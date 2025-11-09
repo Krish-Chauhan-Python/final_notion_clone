@@ -45,7 +45,7 @@ const Sidebar = forwardRef((props, ref) => {
           </Link>
         </div>
 
-        <div className="space-y-2 pt-2">
+        <div className="space-y-2 pt-2 overflow-y-scroll max-h-100 rounded-2xl">
           {data.map((item) => (
             <div key={item._id} className="group relative">
               <Link
