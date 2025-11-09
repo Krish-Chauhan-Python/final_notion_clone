@@ -10,7 +10,7 @@ function parseDDMMYYYY(dateStr) {
   const [, dd, mm, yyyy, hh = '00', min = '00', ss = '00'] = match;
 
   const d = new Date(`${yyyy}-${mm}-${dd}T${hh}:${min}:${ss}`);
-  if (isNaN(d.getTime())) return null; // Invalid check
+  if (isNaN(d.getTime())) return null; 
   return d;
 }
 
@@ -27,7 +27,6 @@ export default function Page() {
       <main className="flex-1 min-h-screen py-10 px-6 md:pl-16 flex flex-col items-center">
         <div className="mt-8 bg-gray-800 rounded-2xl shadow-2xl p-8 w-full max-w-3xl mb-4">
           <div className="space-y-10">
-            {/* Title Section */}
             <div className="flex flex-wrap items-center gap-6 mb-8">
               <span className="text-2xl md:text-4xl font-bold text-white">Task:</span>
               <input
@@ -51,7 +50,7 @@ export default function Page() {
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({
                       title: title,
-                      due_date: d.toISOString(), // store as UTC ISO
+                      due_date: d.toISOString(),
                       content: desc,
                     }),
                   });

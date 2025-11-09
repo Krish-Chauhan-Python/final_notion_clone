@@ -81,10 +81,8 @@ export default function Page() {
             : <div className="col-span-3 text-gray-400 text-center">No recent tasks.</div>}
         </div>
 
-        {/* Main tasks section */}
         <h2 className="text-2xl font-bold text-center text-blue-700 mb-8">Your Tasks</h2>
         <div className="grid md:grid-cols-3 gap-7">
-          {/* Past Due */}
           <div>
             <h3 className="text-lg font-bold text-red-600 mb-2 text-center">Past Due Date</h3>
             <div className="space-y-4">
@@ -99,7 +97,6 @@ export default function Page() {
             </div>
           </div>
 
-          {/* Due Today */}
           <div>
             <h3 className="text-lg font-bold text-green-600 mb-2 text-center">Due Today</h3>
             <div className="space-y-4">
@@ -114,7 +111,6 @@ export default function Page() {
             </div>
           </div>
 
-          {/* Due Soon */}
           <div>
             <h3 className="text-lg font-bold text-blue-600 mb-2 text-center">Due Soon</h3>
             <div className="space-y-4">
